@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment in project root
+/Lib/
+/Scripts/
+/Include/
+/share/
+/pyvenv.cfg
+/.venv/
+/venv/
+/env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local SQLite database
+games.db
+*.sqlite
+*.sqlite3
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
